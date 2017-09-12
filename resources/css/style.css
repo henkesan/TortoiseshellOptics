@@ -1,0 +1,36 @@
+body{
+  background-color: azure;
+  font-size: 18px;
+  line-height: 1.4;
+  font-style: helvetica;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 30rem;
+  background-image: url('glasses-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-info{
+  display: flex;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+}
+.logo{
+  display: flex;
+  flex-grow: 1;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+
+
+}
